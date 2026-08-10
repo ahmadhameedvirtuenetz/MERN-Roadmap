@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { Analytics } from '@vercel/analytics/react';
 
 // ============ ICONS ============
 const Icons = {
@@ -2168,6 +2169,7 @@ export default function MERNDocumentation() {
           </div>
         </main>
       </div>
+      <Analytics />
     </div>
   );
 }
